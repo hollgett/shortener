@@ -1,0 +1,5 @@
+CREATE TABLE IF NOT EXISTS shortener_urls (
+    id SERIAL PRIMARY KEY,
+    original VARCHAR(2048) NOT NULL,
+    short VARCHAR(1024) NOT NULL
+);
